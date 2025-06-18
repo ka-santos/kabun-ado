@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kabunçado</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo_kabunçado-removebg-preview.png" alt="Logo Kabunçado" class="logo">
+            <span class="logo-text">Kabunçado</span>
+        </div>
+        <nav>
+            <!-- seu menu -->
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atracoes">Atrações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="banner">
+        <img src="img/banner1.jpg" alt="Banner Kabunçado" class="banner-img">
+        <div class="banner-texto">
+          <h1>Bem-vindo ao Parque Kabunçado</h1>
+          <p>Diversão garantida para todas as idades!</p>
+        </div>
+      </section>
+      
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre o Parque</h2>
+        <p>O Mundo Mágico é o maior parque de diversões da região, com brinquedos incríveis, áreas temáticas e muita
+            diversão para toda a família!</p>
+        <button onclick="mostrarMais()">Saiba mais</button>
+        <p id="mais-info" class="escondido">Temos montanha-russa, roda-gigante, casa do terror, parque aquático e muito
+            mais. Venha viver essa aventura!</p>
+    </section>
+
+    <section id="atracoes" class="atracoes">
+        <h2>Atrações</h2>
+        <div class="galeria">
+            <div class="card">
+                <img src="img/montanha russa.png" alt="Montanha-Russa">
+                <p>Montanha-Russa</p>
+            </div>
+            <div class="card">
+                <img src="img/roda gigante.jpg" alt="Roda-Gigante">
+                <p>Roda-Gigante</p>
+            </div>
+            <div class="card">
+                <img src="img/carrossel.jpg" alt="Carrossel">
+                <p>Carrossel Encantado</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="galeria-container">
+        <div class="lado-esquerdo">
+          <div class="linha">
+            <div class="imagem"><img src="img/galeria1.jpg" alt="Imagem 1"></div>
+            <div class="imagem"><img src="https://i.imgur.com/3V9Q1G7.jpg" alt="Imagem 2"></div>
+          </div>
+          <div class="linha">
+            <div class="imagem"><img src="https://i.imgur.com/6CQvu8F.jpg" alt="Imagem 3"></div>
+            <div class="imagem"><img src="https://i.imgur.com/BkrrNwY.jpg" alt="Imagem 4"></div>
+          </div>
+        </div>
+      
+        <div class="lado-direito">
+          <img src="img/galeria5.png" alt="Imagem 5">
+        </div>
+      </div>
+
+    <footer id="contato">
+        <p>&copy; 2025 Parque Mundo Mágico | Siga-nos nas redes sociais</p>
+        <div class="social">
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
