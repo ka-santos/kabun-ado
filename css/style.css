@@ -200,48 +200,56 @@ button:hover {
     gap: 20px;
     padding-top: 50px;
     justify-content: center;
-  }
-  
-  .lado-esquerdo {
+}
+
+.lado-esquerdo {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  .linha {
+}
+
+.lado-esquerdo :hover{
+    transform: scale(1.01);
+}
+
+.linha {
     display: flex;
     gap: 20px;
-  }
-  
-  .imagem {
-    width: 200px;
-    height: 150px;
+}
+
+.imagem {
+    width: 400px;
+    height: 300px;
     overflow: hidden;
     border: 1px solid #88519e;
     border-radius: 8px;
-  }
-  
-  .imagem img {
+}
+
+.imagem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
-  
-  .lado-direito {
-    width: 200px;
-    height: 320px;
+}
+
+.lado-direito {
+    width: 400px;
+    height: 620px;
     border: 1px solid #88519e;
     border-radius: 8px;
     overflow: hidden;
-  }
-  
-  .lado-direito img {
+}
+
+.lado-direito :hover{
+    transform: scale(1.02);
+}
+
+.lado-direito img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
+}
 
 footer {
     background-color: var(--periwinkle);
