@@ -79,9 +79,11 @@ nav ul li a {
 }
 
 .banner-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 1900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    overflow: hidde
 }
 
 .banner-texto {
@@ -138,6 +140,18 @@ nav ul li a {
     text-align: center;
 }
 
+.atracoes {
+    padding: 40px 20px;
+    background-color: #ffd6ff;
+    text-align: center;
+  }
+  
+  .atracoes h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
 button {
     padding: 10px 20px;
     background-color: var(--button-color);
@@ -171,31 +185,33 @@ button:hover {
 }
 
 .card {
-    width: 250px;
-    border-radius: 10px;
+    background-color: #f3e8ff;
+    border-radius: 12px;
     overflow: hidden;
-    background: var(--card-bg);
-    box-shadow: 0 4px 8px rgba(138, 89, 155, 0.1);
-    transition: transform 0.3s;
-}
-
-.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
     transform: scale(1.03);
-}
-
-.card img {
+  }
+  
+  .card img {
     width: 100%;
-    height: 150px;
+    height: 180px;
     object-fit: cover;
-}
-
-.card p {
-    padding: 10px;
-    background: var(--mauve);
+  }
+  
+  .card p {
+    padding: 12px;
+    background-color: #e7c6ff;
     font-weight: bold;
-    color: #8b5199;
-}
+    color: #ffffff;
+  }
 
+  .card p:hover{
+    color: #88519e;
+  }
 .galeria-container {
     display: flex;
     gap: 20px;
